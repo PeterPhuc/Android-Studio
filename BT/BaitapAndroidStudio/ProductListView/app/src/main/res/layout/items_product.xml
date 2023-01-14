@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgProduct"
+        android:layout_width="98dp"
+        android:layout_height="112dp"
+        android:contentDescription="TODO"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ao"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tensp"
+        android:layout_width="212dp"
+        android:layout_height="43dp"
+        android:layout_gravity="center"
+        android:paddingLeft="7dp"
+        android:paddingTop="5dp"
+        android:text="Áo thun xanh nam"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.678"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.149" />
+
+    <TextView
+        android:layout_width="87dp"
+        android:layout_height="34dp"
+        android:layout_gravity="center"
+        android:paddingLeft="7dp"
+        android:paddingTop="5dp"
+        android:text="Đơn giá: "
+        android:textColor="@color/black"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.373"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.568" />
+
+    <TextView
+        android:id="@+id/dongia"
+        android:layout_width="120dp"
+        android:layout_height="34dp"
+        android:layout_gravity="center"
+        android:paddingLeft="0dp"
+        android:paddingTop="5dp"
+        android:text="20.000đ"
+        android:textColor="@color/black"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.745"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.568" />
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="34dp"
+        android:layout_gravity="center"
+        android:paddingLeft="7dp"
+        android:paddingTop="5dp"
+        android:text="Thành tiền: "
+        android:textColor="@color/black"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.401"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.862" />
+
+    <TextView
+        android:id="@+id/giasp"
+        android:layout_width="110dp"
+        android:layout_height="34dp"
+        android:layout_gravity="center"
+        android:paddingLeft="0dp"
+        android:paddingTop="5dp"
+        android:text="17.000đ"
+        android:textColor="@color/black"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.827"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.862" />
+
+    <ImageView
+        android:id="@+id/nutTang"
+        android:layout_width="40dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="40dp"
+        android:padding="0dp"
+        android:src="@drawable/arrowtop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.967"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.256" />
+
+    <TextView
+        android:id="@+id/soluong"
+        android:layout_width="38dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:text="1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.967"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.528" />
+
+    <ImageView
+        android:id="@+id/nutGiam"
+        android:layout_width="44dp"
+        android:layout_height="29dp"
+        android:padding="0dp"
+        android:src="@drawable/arrowdown"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.983"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.826" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
